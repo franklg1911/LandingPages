@@ -17,9 +17,9 @@ Este repositorio contiene diferentes conjuntos de páginas diseñadas y desarrol
 ### Proyectos
 A continuación se muestra una lista de página subidas en este repositorio:
 1. **BlueBeats**
-    - **Descripción**: Es una página web básica enfocada en mostrar productos de tecnológica en especial audífonos bluetooh, con secciones de promociones, comentarios y beneficios de los articulos.
+    - **Descripción**: Es una página web básica enfocada en mostrar productos de tecnológica en especial audífonos Bluetooth, con secciones de promociones, comentarios y beneficios de los articulos.
 2. **FitLife**
-    - **Descripción**: Es una página web diseñada para resaltar las características principales de una aplicación móvil con secciones de auspiciadores y vinculos a otras páginas.
+    - **Descripción**: Es una página web diseñada para resaltar las características principales de una aplicación móvil con secciones de auspiciadores.
 
 
 
