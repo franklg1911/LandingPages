@@ -23,16 +23,20 @@ A continuación se muestra una lista de página subidas en este repositorio:
 
 1. **BlueBeats**
 
-   - **Descripción**: Es una página web básica enfocada en mostrar productos de tecnológica en especial audífonos Bluetooth, con secciones de promociones, comentarios y beneficios de los articulos.
+   - **Descripción**: Es una página web básica diseñada con **HTML5 Y CSS3** enfocada en mostrar productos de tecnológica en especial audífonos Bluetooth, con secciones de promociones, comentarios y beneficios de los articulos.
 
 2. **CourseCSS3**
 
-   - **Descripción**: Es una página web que ofrece el curso de CSS3 mostrando técnicas de estilización, características, contactos, etc.
+   - **Descripción**: Es una página web diseñada con **HTML5 Y CSS3** que ofrece el curso de CSS3 mostrando técnicas de estilización, características, contactos, etc.
 
 3. **DevClassRoom**
 
-   - **Descripción**: Es una página web diseñada con CSS GRID y FlexBox enfocada en los cursos virtuales de programación.
+   - **Descripción**: Es una página web diseñada diseñada con **HTML5 Y CSS3** enfocada en la venta de cursos virtuales de programación.
 
 4. **FitLife**
 
-   - **Descripción**: Es una página web orientada a la promoción de un app móvil de salud y una serie de entrenamientos personalizados.
+   - **Descripción**: Es una página web diseñada con **HTML5 Y CSS3** orientada a la promoción de un app móvil de salud y una serie de entrenamientos personalizados.
+
+5. **AmericanStyle**
+
+   - **Descripción**: Es una página web diseñada con **HTML5 Y CSS3** reflejada en la promoción y venta de ropa americana con una sección de categorías y ofertas.
