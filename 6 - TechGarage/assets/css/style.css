@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --primary-color: #193940;
+    --secondary-color: #7ABF5A;
+    --tertiary-color: #9BF272;
+    --background-color: #BAC8D9;
+    --text-color: #F7F9FC;
+    --padding-container: 80px 0;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* padding: 50px 0; */
+}
+
+/*
+ 
+   _  _ ___   _   ___  ___ ___ 
+  | || | __| /_\ |   \| __| _ \
+  | __ | _| / _ \| |) | _||   /
+  |_||_|___/_/ \_\___/|___|_|_\
+                               
+ 
+*/
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+}
+
+/* NAVEGADOR */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0;
+}
+
+.nav__logo-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.nav__logo-link:hover {
+    color: var(--secondary-color);
+}
+
+.nav__menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--background-color);
+    font-size: 1.2rem;
+}
+
+.nav__link--highlight {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.nav__link:hover {
+    color: var(--secondary-color);
+}
+
+/* HERO SECTION */
+
+.hero__main {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__title {
+    color: var(--text-color);
+    font-size: 3.4rem;
+}
+
+.hero__linear {
+
+    /* 90deg : indicar que el degradado va de izquierda a derecha */
+    /* 270deg : indicar que el degradado va de derecha a izquierda */
+    /* 180deg : indicar que el degradado va desde la parte inferior hacia la parte superior */
+    /* #9BF272 40% : ocupa el 40% del ancho del fondo */
+    /* #193940 100% : empieza desde el 40% y ocupa el resto hasta el 100%. */
+    background: linear-gradient(180deg, #9BF272 40%, #193940 80%);
+
+    /* Esta propiedad especifica que el fondo (en este caso, el degradado) debe recortarse para ajustarse al texto del elemento. Esto significa que el color del fondo solo se verá donde hay texto y no en el resto del elemento. */
+    background-clip: text;
+
+    /* Esta propiedad es una extensión de WebKit que hace que el color del texto sea transparente. Esto permite que el fondo (el degradado) brille a través del texto,
+        logrando el efecto visual de que el texto está "relleno" con el degradado en lugar de tener un color sólido. El prefijo -webkit- se usa para asegurar que la propiedad funcione en navegadores basados en WebKit,
+        como Chrome y Safari. */
+    -webkit-text-fill-color: transparent;
+}
+
+.hero__paragraph {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    margin: 1.5rem auto;
+}
+
+.hero__cta {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.hero__button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #9BF272 10%, #41808D 80%);
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.hero__button:hover {
+    background: linear-gradient(270deg, #9BF272 10%, #41808D 80%);
+}
+
+.hero__button--linear {
+    background: linear-gradient(270deg, #9BF272 10%, #41808D 80%);
+}
+
+.hero__button--linear:hover {
+    background: linear-gradient(90deg, #9BF272 10%, #41808D 80%);
+}
+
+.hero__features {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.hero__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+}
+
+.hero__item-text {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+
+
+
+
