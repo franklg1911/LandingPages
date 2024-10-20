@@ -167,7 +167,97 @@
     color: var(--text-color);
 }
 
+/*
+ 
+   __  __   _   ___ _  _ 
+  |  \/  | /_\ |_ _| \| |
+  | |\/| |/ _ \ | || .` |
+  |_|  |_/_/ \_\___|_|\_|
+                         
+ 
+*/
 
+/* PLANS */
 
+.plans {
+    padding: var(--padding-container);
+    background-color: var(--tertiary-color);
+}
 
+.plans__header {
+    text-align: center;
+    margin: 0rem 8rem;
 
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    font-weight: 400;
+    margin: .5rem;
+}
+
+.title__highlight {
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.plans__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem 6rem;
+    gap: 5rem;
+}
+
+.plans__article {
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.plans__title {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: .5rem;
+}
+
+.plans__paragraph {
+    font-size: 1rem;
+    color: var(--text-color);
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.plans__item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+    color: var(--text-color);   
+    margin: 1rem 0rem
+}
+
+.plans__button {
+    display: inline-block;
+    background: linear-gradient(90deg, #9BF272 10%, #41808D 80%);
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.plans__button:hover {
+    background: linear-gradient(270deg, #9BF272 10%, #41808D 80%);
+}
