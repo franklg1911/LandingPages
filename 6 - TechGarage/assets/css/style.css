@@ -190,18 +190,18 @@
 
 }
 
-.title {
+.plans__header-title {
     font-size: 2.5rem;
     color: var(--primary-color);
     font-weight: 400;
     margin: .5rem;
 }
 
-.title__highlight {
+.plans__header-highlight {
     font-weight: 700;
 }
 
-.paragraph {
+.plans__header-paragraph {
     font-size: 1.1rem;
     color: var(--primary-color);
     text-align: center;
@@ -211,7 +211,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 2rem 6rem;
-    gap: 5rem;
+    gap: 2.5rem;
 }
 
 .plans__article {
