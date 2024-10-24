@@ -10,7 +10,9 @@
 }
 
 
-* {
+*,
+input,
+textarea {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -417,4 +419,74 @@
     color: var(--background-color);
 }
 
+/* CONTACTOS */
 
+.contact {
+    background-color: var(--primary-color);
+    padding: 7rem 12rem;
+}
+
+.contact__box {
+    background-color: var(--text-color);
+    border-radius: 6px;
+    padding: 2.5rem;
+}
+
+.contac__title {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+}
+
+.contact__paragraph {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contact__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.contact__input {
+    width: 25%;
+    padding: .9rem;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+}
+
+/* Este selector CSS se dirige específicamente al botón externo de la interfaz de usuario de los campos number en navegadores basados en WebKit (como Chrome, Safari y Opera). El :: indica que estamos seleccionando un pseudo-elemento (en este caso, el botón de incremento/decremento) */
+input[type=number]::-webkit-outer-spin-button,
+
+
+/* Similar al anterior,
+pero este selector apunta al botón interno de la interfaz de usuario de los campos number. */
+input[type=number]::-webkit-inner-spin-button {
+
+    /* Este es un estilo específico de WebKit que desactiva la apariencia predeterminada de los elementos de interfaz (como las flechas de los campos number). */
+    -webkit-appearance: none;
+
+    /* Esta propiedad se utiliza para asegurarse de que no haya márgenes alrededor de los botones de incremento/decremento que puedan afectar el diseño o la apariencia del campo de entrada. */
+    margin: 0;
+}
+
+
+.contact__button {
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #9BF272 10%, #41808D 80%);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contact__button:hover {
+    background: linear-gradient(270deg, #9BF272 10%, #41808D 80%);
+}
